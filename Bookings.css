@@ -1,0 +1,21 @@
+ .booking-container{
+    position: absolute;
+   width: 100%;
+    
+} 
+.form-container{
+   
+    padding: 3rem 4rem;
+    margin-bottom: 3rem;
+    /* background-color: blue; */
+    
+}
+.form-container input{
+   height: 50px;
+   width: 20%;
+   padding:2rem 1rem ;
+   border-top-color: none;
+}
+.form-containe label{
+    position: relative;
+}
