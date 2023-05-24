@@ -1,21 +1,39 @@
- .booking-container{
-    position: absolute;
-   width: 100%;
+.booking-wrapper{
+     position: relative; 
+     padding: 1rem 1rem; 
+     background-color: var(--lightBlue); 
+     border-radius: 10px; 
+     gap: 1rem; 
+    grid-template-columns: repeat(2, 1fr); 
     
 } 
-.form-container{
-   
-    padding: 3rem 4rem;
-    margin-bottom: 3rem;
-    /* background-color: blue; */
+.BookingInput{
+ 
+    background-color: darkgrey;
+     position: relative;
+     padding: 2rem 1rem;
+     background-color: rgb(47, 102, 219);
+     border-radius: 10px;
+     gap: 1rem;
+     grid-template-columns: repeat(2, 1fr);
     
 }
-.form-container input{
-   height: 50px;
-   width: 20%;
-   padding:2rem 1rem ;
-   border-top-color: none;
-}
-.form-containe label{
-    position: relative;
-}
+ label{
+    display: block;
+    position: ;
+    color:rgb(255, 255, 255)  ;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+ }
+ input{
+    height: 40px;
+    padding: 0 2rem;
+    border-radius: 2px;
+    background-color: none;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    border-color: none;
+ }

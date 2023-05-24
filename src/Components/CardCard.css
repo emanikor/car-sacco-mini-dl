@@ -1,0 +1,80 @@
+/* car-card.css */
+.Services-title{
+    display: flex;
+    gap: 1rem;
+}
+.Services-title h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.7rem;
+    font-weight: 600;
+   
+}
+.Services-title h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.4rem;
+    color: #aaa8a8;
+   
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: grid;
+    grid-template: repeat(2, 1fr);
+    
+  }
+  .cardContainer{
+    display: grid;
+    grid-template: repeat(2, 1fr);
+  }
+  
+  .card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .card-body {
+    text-align: left;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+  }
+  /* car-card.css */
+
+/* Existing styles... */
+
+.card-button {
+  display: block;
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+  
