@@ -1,0 +1,103 @@
+
+.hero-wrapper {
+    color: #000000;
+    position: relative;
+    padding-bottom: 1rem;
+    background-color: rgb(243, 253, 253);
+}
+.hero-container{
+    display: flex;
+   align-items: flex-end;
+  justify-content: space-between;
+}
+.left-hero{
+  
+   padding-bottom: 0; 
+}
+.hero-title{
+    font-size: 3.7rem ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    
+}
+.hero-text{
+    font-size: 16px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(128, 123, 123);
+    width: 300px;
+}
+.btn--outline{
+    padding: 13px 20px ;
+    border-radius: none;
+}
+.heros-btn{
+  display: flex;
+  justify-content: center;
+gap: 1rem;
+}
+.btnHero{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border:none;
+    font-size: 18px;
+    padding:15px 2rem;
+ margin-top: 20px;  
+}
+.btnHero2{
+    cursor: pointer;
+    color: #000000;
+    background-color: #dddbdb;
+   border-color: #242424;
+    border:none;
+    font-size: 18px;
+    padding:15px 2rem;
+ margin-top: 20px;  
+}
+
+.btnHero:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    border: 1px solid rgb(228, 227, 227);
+    transition: 250ms;
+  }
+.right-hero{
+    padding-right: 3rem;
+    margin-top: 40px;
+
+}
+/* .image-container{
+  width:30rem;
+
+} */
+
+
+span{
+    color: blue;
+}
+@media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      gap:1rem;
+    }
+  
+    .about-text {
+      margin-top: 30px; /* Add margin on top for better separation */
+    }
+    .image-container img{
+        width: 500px;
+        height: auto;
+        padding-left: 3rem;
+        /* padding: 47px 30px ;
+        border-radius: 8px; */
+      }
+      .right-hero{
+        /* padding-right: 3rem; */
+        margin-top: 4px;
+    
+    }
+      
+   
+  }
