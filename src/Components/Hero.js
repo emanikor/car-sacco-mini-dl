@@ -16,11 +16,14 @@ function Hero() {
           <span className='flexColStart hero-text'>Dont denie yourself the pleasure
             of driving the best Premium cars from around the world here and now
           </span>
+          <div className='heros-btn'>
         <button className='btnHero'>Book Now</button>
+        <button className='btnHero2'>Sell your car</button>
+        </div>
         </div>
 
         <div className='flexCenter right-hero'>
-         <div className='image-container'>
+         <div className='flexCenter image-container'>
          <img src={dodge}
          alt="car" 
          className="hero-car-section"

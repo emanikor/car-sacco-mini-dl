@@ -22,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #e4e3e3;
+    background-color: rgb(243, 253, 253);
   }
   
   .card-grid {
