@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css';
 import '../index.css'
+import './Button.css'
 import { Button } from './Button';
 import   dodge  from '../assets/dodge.png';
 
@@ -15,7 +16,7 @@ function Hero() {
           <span className='flexColStart hero-text'>Dont denie yourself the pleasure
             of driving the best Premium cars from around the world here and now
           </span>
-          { <Button className='hero-button' buttonStyle='btn--outline'>Book Now</Button>}
+        <button className='btnHero'>Book Now</button>
         </div>
 
         <div className='flexCenter right-hero'>
