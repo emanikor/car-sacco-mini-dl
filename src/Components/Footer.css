@@ -1,0 +1,113 @@
+
+
+
+.container{
+    grid-template-columns: repeat(4 , 1fr);
+    display: grid;
+    gap:3rem;
+    margin: 60px;
+    background-color: rgb(58, 58, 58);
+    padding: 80px 50px;
+    border-radius: 50px;
+}
+.footer{
+    margin-top: 80px;
+    
+}
+.footer-logo{
+    color: #fff;
+    padding-bottom: 40px ;
+    font-size: 30px;
+}
+.footer-text{
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 0;
+    
+}
+.container h3{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+.container li{
+    list-style: none;
+    line-height: 2;
+    color: #a0a0a0;
+}
+
+.footer-1 input{
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+.form{
+    width: 250px;
+    background-color:#4e4e4e;
+    height: 50px;
+    border-radius: 5px;
+}
+.footer-btn{
+    padding-bottom: 2px;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    border: none;
+    
+
+}
+.next-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    row-gap: 2rem;
+  
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+
+}
+.links li{
+    margin-left: 30px;
+   padding: 0 30px;
+
+}
+@media screen and (max-width: 960px) {
+    .container{
+        grid-template-columns: repeat(2 , 1fr);
+        display: grid;
+        gap:1.2rem;
+        margin: 0px;
+        background-color: rgb(58, 58, 58);
+        padding: 70px 15px;
+        border-radius: 0px;
+        
+    }
+    .links{
+        row-gap: 1rem;
+      
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           position: absolute;
+
+    }
+    .links li{
+        margin-left: 0px;
+       padding: 0 3px;
+    
+    }
+
+
+}

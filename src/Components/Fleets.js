@@ -3,7 +3,8 @@ import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./data";
 import './Fleets.css';
-// import logo from "./logo.JPG";
+
+
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -26,8 +27,9 @@ const App = () => {
       <section className="menu section">
         <div className="title">
           {/* <img src={logo} alt="logo" className="logo" /> */}
-          <h2>Menu List</h2>
-          <div className="underline"></div>
+          <h2>OUR FLEETS </h2>
+          < p>we offer and extensive fleetof vehicle including<br></br> 
+          Bmw, Audi,Toyota</p>
         </div>
         <Categories
           categories={categories}

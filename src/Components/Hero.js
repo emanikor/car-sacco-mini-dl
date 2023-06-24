@@ -9,7 +9,7 @@ import   dodge  from '../assets/dodge.png';
 function Hero() {
   return (
     <section className='hero-wrapper'>
-      <div className='paddings innerWidth flexCenter hero-container'>
+      <div className='paddings innerWidth hero-container'>
     {/* left-hero */}
         <div className='flexColStart left-hero'>
           <h1 className='flexColStart hero-title'>Premium <br></br>car rental in<br/> Nairobi</h1>
@@ -22,7 +22,7 @@ function Hero() {
         </div>
         </div>
 
-        <div className='flexCenter right-hero'>
+        <div className='flexCenter right-hero1'>
          <div className='flexCenter image-container'>
          <img src={dodge}
          alt="car" 

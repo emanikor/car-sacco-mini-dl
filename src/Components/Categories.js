@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Categories = ({ categories, filterItems, activeCategory }) => {
   return (
     <div className="btn-container">

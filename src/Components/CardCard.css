@@ -2,6 +2,7 @@
 .Services-title{
     display: flex;
     gap: 1rem;
+    margin-top: 3rem ;
 }
 .Services-title h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,20 +23,25 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: rgb(243, 253, 253);
+    background-color: rgb(255, 255, 255);
+ 
   }
   
   .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;  
+    grid-gap: 20px; 
+    column-gap: 3rem;
+   
   }
   
   .card {
-    background-color: #ffffff;
+    background-color: #f1f1f1;
+    /* box-shadow: 5px 10px 10px rgb(219, 219, 219); */
     border-radius: 10px;
-    padding: 20px;
+    padding: 2px 20px;
     text-align: center;
+    
     width: 100%;
     display: flex;
     align-items: center;
@@ -43,8 +49,8 @@
   }
   
   .card img {
-    width: 100%;
-    max-height: 200px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
   }
@@ -97,20 +103,57 @@
   background-color: #ffffff;
   color: #000000;
 }
-@media (min-width: 768px) {
+@media screen and (max-width: 960px) {
     .card-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
+       
       }
       
       .card-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
         
       }
+      .card {
+      
+        border-radius: 10px;
+        
+        width: 100%;
+     
+       
+      }
+      .card img {
+        width: 150px;
+        height:200px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .card-description {
+        font-size: 16px;
+        color: #666;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 200px;
+      }
+      .card-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400; */
+      }
+      .card-body {
+        text-align: left;
+        width: 200px;
+       
+      }
+  .card-description {
+  
+    width: 170px;
+  }
   }
 
 
