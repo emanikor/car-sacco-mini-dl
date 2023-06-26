@@ -57,6 +57,13 @@ function Footer() {
        <li>privacy policy</li>
        <li>legal notice</li>
        <li>accessibility</li>
+       
+<ul className='footer-brans'>
+       <i class="fa-brands fa-facebook-f"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-linkedin"></i>
+       </ul>
         </div>
         </div>
       </div>
